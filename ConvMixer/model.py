@@ -2,6 +2,8 @@ import tensorflow as tf
 from tensorflow.keras import layers
 import os 
 
+#define the convmixer class
+
 class ConvMixer(tf.keras.Model):
     def __init__(self, num_classes):
         super(ConvMixer, self).__init__()
