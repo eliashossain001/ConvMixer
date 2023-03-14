@@ -8,29 +8,31 @@ EfficientNet is a family of convolutional neural networks that have been optimiz
 * Python 3.6 or later
 * TensorFlow 2.4 or later
 * Keras 2.4 or later
+# Dataset
+You need to download the ImageNet dataset manually and configure it based on your requirements. In this case, I have used ImageNet-1k dataset.
 
 # Installation
 
 Clone the repository
 
-'''
+```
 git clone https://github.com/username/efficientnet.git
 cd efficientnet
 
-'''
+```
 
 Install the required packages:
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 # Usage
 
 To train the model on the ImageNet dataset, run the following command:
 
-'''
+```
 python train.py
-'''
+```
 
 This will , preprocess the images, and train the model for 100 epochs. By default, the script will save the best model weights to a file called best_model.h5.
